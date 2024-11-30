@@ -1,0 +1,120 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4a90e2, #7b4397);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+/* Resume Section */
+.resume {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555;
+}
+
+.company {
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.dates {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills li {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4a90e2;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+li:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
